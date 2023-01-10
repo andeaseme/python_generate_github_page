@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: ha-ha
-        uses: andeaseme/writing-javascript-actions/.github/actions/joke-action
+        uses: andeaseme/writing-javascript-actions/.github/actions/joke-action@83505e5dd85fe613a4570a4e9c51aecf47814be2
