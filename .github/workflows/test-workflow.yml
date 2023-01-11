@@ -15,3 +15,5 @@ jobs:
         uses: andeaseme/writing-javascript-actions/.github/actions/joke-action@3ca1a426f0e6ae8e958a7c9b49c9b0f5f36c3158
       - name: publish-github-pages
         uses: andeaseme/writing-javascript-actions/.github/actions/publish-github-pages@main
+        with:
+          project-name: dummy_project
