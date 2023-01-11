@@ -14,4 +14,4 @@ jobs:
       - name: ha-ha
         uses: andeaseme/writing-javascript-actions/.github/actions/joke-action@3ca1a426f0e6ae8e958a7c9b49c9b0f5f36c3158
       - name: publish-github-pages
-        uses: andeaseme/writing-javascript-actions/.github/actions/publish-github-pages@45898523039715ee3836b924ee61bb38ab3537a0
+        uses: andeaseme/writing-javascript-actions/.github/actions/publish-github-pages@c74f030e5a27a585ae450f7be1bdce112082b193
