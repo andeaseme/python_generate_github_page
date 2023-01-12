@@ -16,5 +16,4 @@ jobs:
       - name: publish-github-pages
         uses: andeaseme/writing-javascript-actions/.github/actions/publish-github-pages@main
         with:
-          project-name: dummy_project
           github-token:  ${{ secrets.GITHUB_TOKEN }}
