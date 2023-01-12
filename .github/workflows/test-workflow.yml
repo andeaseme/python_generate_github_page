@@ -4,6 +4,10 @@ on:
   issues:
     types: [labeled]
 
+  push:
+    branches:
+      - main
+
 jobs:
   action:
     if: ${{ !github.event.repository.is_template }}
@@ -11,6 +15,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: workspace
+        run: echo $GITHUB_WORKSPACE
+
       - name: ha-ha
         uses: andeaseme/writing-javascript-actions/.github/actions/joke-action@3ca1a426f0e6ae8e958a7c9b49c9b0f5f36c3158
       - name: publish-github-pages
